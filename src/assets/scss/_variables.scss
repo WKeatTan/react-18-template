@@ -1,0 +1,159 @@
+$font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+  'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+  'Noto Color Emoji';
+
+/* Block */
+$block-shadow: 1px 1px 1px 1px rgba(183, 180, 189, 0.08);
+$block-hover-shadow: 0 6px 0 0 rgba(0, 0, 0, 0.01), 0 15px 32px 0 rgba(0, 0, 0, 0.06);
+$block-hover-animation: translate(-1px, -1px);
+
+/* Border */
+$border-radius: 12px !important;
+$border-color: 1px solid #e5e5e5;
+
+/* Breakpoint */
+$breakpoint-desktop-l: 1440px;
+$breakpoint-desktop: 1025px; // @media MIN-WIDTH VALUE
+$breakpoint-tablet: 1024px; // @media MAX-WIDTH VALUE
+$breakpoint-tablet-vertical: 768px; // @media MAX-WIDTH VALUE
+$breakpoint-mobile: 480px; // @media MAX-WIDTH VALUE
+$breakpoint-mobile-l: 425px;
+$breakpoint-mobile-m: 375px;
+$breakpoint-mobile-s: 320px;
+
+/* Color */
+$white: #ffffff;
+$set: #0c2028;
+$set-light: #38484f;
+$set-lighter: #647176;
+$set-lightest: #90999d;
+$space: #e5e5e5;
+$space-dark: #d4d4d4;
+$space-light: #f6f6f6;
+$space-lighter: #fafafb;
+$green-text: #35454c;
+$green-darker: #005c34;
+$green-dark: #11aa4f;
+$green: #5acc5a;
+$green-light: #bcefb9;
+$green-lighter: #f3fff3;
+$blue-text: #323f47;
+$blue-darker: #002c83;
+$blue-dark: #0058b6;
+$blue: #007ce0;
+$blue-light: #8ed7ff;
+$blue-lighter: #d0f4ff;
+$blue-progess: #03dac6;
+$yellow-text: #514b32;
+$yellow-darker: #6d5900;
+$yellow-dark: #bf9c00;
+$yellow: #f2cb0c;
+$yellow-light: #f9e477;
+$yellow-lighter: #fff5c4;
+$orange-text: #442f0f;
+$orange-darker: #5b2d00;
+$orange-dark: #bf5f00;
+$orange: #ff7f00;
+$orange-light: #ffae4c;
+$orange-lighter: #ffe5cc;
+$red-text: #49302c;
+$red-darker: #440505;
+$red-dark: #99140a;
+$red: #e0241a;
+$red-light: #ffadad;
+$red-lighter: #ffe0e0;
+
+%transition {
+  transition: all 0.3s;
+}
+
+%middleFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+%middlePosition {
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+%miniScrollKit {
+  &::-webkit-scrollbar {
+    width: 3px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+}
+
+%display-x-large {
+  font-size: 42px;
+  line-height: 44px;
+  font-weight: 500;
+}
+
+%display-large {
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 500;
+}
+
+%display-medium {
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+%display-small {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+%heading {
+  font-size: 16px !important;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+%body {
+  font-size: 14px !important;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+%caption {
+  font-size: 12px !important;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+:export {
+  primaryColor: #5d92f4;
+  secondaryColor: #677080;
+  successColor: #00d014;
+  dangerColor: #ff3739;
+  warningColor: #ffb70f;
+  infoColor: #00d0bd;
+  darkColor: #464d69;
+  defaultColor: #fafafa;
+  greyLightenColor: #a5a7b2;
+  greyColor: #677080;
+  whiteColor: #ffffff;
+  purpleColor: #896bd6;
+  yellowColor: #d46b08;
+}

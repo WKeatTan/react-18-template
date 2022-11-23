@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "baseUrl": "./",
+    "paths": {
+      "Actions": ["src/actions/*"],
+      "Api": ["src/api/*"],
+      "Assets": ["src/assets/*"],
+      "Components": ["src/components/*"],
+      "Constants": ["src/constants/*"],
+      "Container": ["src/container/*"],
+      "Contexts": ["src/contexts/*"],
+      "Hooks": ["src/hooks/*"],
+      "Lang": ["src/lang/*"],
+      "Lib": ["src/lib/*"],
+      "Reducers": ["src/reducers/*"],
+      "Routes": ["src/routes/*"],
+      "Services": ["src/services/*"],
+      "Store": ["src/store/*"],
+      "Utils": ["src/utils/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist", "tmp", "temp", "jspm_packages"]
+}

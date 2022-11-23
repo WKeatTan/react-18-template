@@ -1,0 +1,20 @@
+html,
+body,
+#root {
+  height: -webkit-fill-available;
+  font-family: $font-family;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: $space;
+  border-radius: 10px;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover,
+::-webkit-scrollbar-thumb:active {
+  background-color: $space-dark;
+}
