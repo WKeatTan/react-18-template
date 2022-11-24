@@ -1,6 +1,5 @@
 import React from 'react';
-
-import ButtonComponent from 'Components/ButtonComponent';
+import { ButtonComponent } from 'edvg-sas/dist';
 
 export const AccessDeniedComponent = ({ handleOnClick }) => (
   <div>
