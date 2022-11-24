@@ -68,3 +68,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Rex Library
+
+Github: [https://github.com/WKeatTan/edvg-sas](https://github.com/WKeatTan/edvg-sas)
+NPM: [https://www.npmjs.com/package/edvg-sas](https://www.npmjs.com/package/edvg-sas)
