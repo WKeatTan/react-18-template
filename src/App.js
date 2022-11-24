@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
-
+import { ToastContainer } from 'edvg-sas/dist';
 import { store } from 'Store/index';
 
 import 'Lib/reactCss';
@@ -13,6 +13,7 @@ const MainApp = () => (
     <Suspense fallback={<LoadingComponent />}>
       <BrowserRouter>
         <App />
+        <ToastContainer />
       </BrowserRouter>
     </Suspense>
   </Provider>
